@@ -1,7 +1,7 @@
 ﻿/*
  * Description:     A basic PONG simulator
- * Author:           
- * Date:            
+ * Author:   Jon Segeren        
+ * Date:   Feb    08 19      
  */
 
 #region libraries
@@ -42,7 +42,7 @@ namespace Pong
         //ball directions, speed, and rectangle
         Boolean ballMoveRight = true;
         Boolean ballMoveDown = true;
-        const int BALL_SPEED = 4;
+        int ballSpeed = 2;
         Rectangle ball;
 
         //paddle speeds and rectangles
